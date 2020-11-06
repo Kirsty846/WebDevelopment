@@ -1,0 +1,32 @@
+li{
+	border: 2px solid red;
+}
+#special{
+	background-color: yellow;
+}
+.completed{
+	text-decoration: line-through;;
+}
+
+/*
+
+/*Star everything on the page
+	*{}
+/*descendant selector: all arcors(links) in list items in unorganized lists
+ul li a {}
+/* adjacent selector : specific elements after a header 4;
+h4 + ul {}
+/*attribute selector: select input types, same image names, same links;
+a [href = "http://www.google.com"] {}
+input [type ="text"] {}
+
+/* nth of type: every 5th ..;
+u1:nth-of-type{3}{};
+
+
+/*Element all lists
+	li{}
+/*class many classes
+	.classname
+/*id one id
+	#idname
